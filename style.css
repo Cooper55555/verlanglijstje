@@ -13,6 +13,11 @@
     justify-content: space-around;
   }
 
+.button-container3 {
+    display: flex;
+    justify-content: space-around;
+  }
+
 #cardyoutubers {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -52,7 +57,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     text-align: center;
-    background-color: #c78707;
+    background-color: #04AA6D;
   }
   
   .titleyoutubers1 {
@@ -325,5 +330,110 @@
   }
   
   .buttonyoutubers8:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #cardyoutubers9 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    background-color: #04AA6D;
+  }
+  
+  .titleyoutubers9 {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .buttonyoutubers9 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonyoutubers9:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #cardyoutubers10 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    background-color: #04AA6D;
+  }
+  
+  .titleyoutubers10 {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .buttonyoutubers10 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonyoutubers10:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #cardyoutubers11 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    background-color: #c78707;
+  }
+  
+  .titleyoutubers11 {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .buttonyoutubers11 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonyoutubers11:hover, a:hover {
     opacity: 0.7;
   }
