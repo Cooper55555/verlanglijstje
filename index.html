@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav id="TopNav">
+        <div id="smallNav">
+            <p id="topnavText" onclick="NavText1()">Pokemon</p>
+            <p id="topnavText" onclick="NavText2()">Gamen</p>
+            <p id="topnavText" onclick="NavText3()">Overige</p>
+        </div>
+    </nav>
+
+    <div id="OptionContainer">
+        <button onclick="ShowAllPokemon()" id="OptionButton"> Alles</button>
+        <button onclick="Show5StarPokemon()" id="OptionButton"> 5 Ster</button>
+        <button onclick="Show4StarPokemon()" id="OptionButton"> 4 Ster</button>
+        <button onclick="Show3StarPokemon()" id="OptionButton"> 3 Ster</button>
+        <button onclick="Show2StarPokemon()" id="OptionButton"> 2 Ster</button>
+        <button onclick="Show1StarPokemon()" id="OptionButton"> 1 Ster</button>
+      </div>
+
+      <div id="OptionContainer2" hidden>
+        <button onclick="ShowAllGamen()" id="OptionButton"> Alles</button>
+        <button onclick="Show5StarGamen()" id="OptionButton"> 5 Ster</button>
+        <button onclick="Show4StarGamen()" id="OptionButton"> 4 Ster</button>
+        <button onclick="Show3StarGamen()" id="OptionButton"> 3 Ster</button>
+        <button onclick="Show2StarGamen()" id="OptionButton"> 2 Ster</button>
+        <button onclick="Show1StarGamen()" id="OptionButton"> 1 Ster</button>
+      </div>
+
+      <div id="OptionContainer3" hidden>
+        <button onclick="ShowAllOverigen()" id="OptionButton"> Alles</button>
+        <button onclick="Show5StarOverigen()" id="OptionButton"> 5 Ster</button>
+        <button onclick="Show4StarOverigen()" id="OptionButton"> 4 Ster</button>
+        <button onclick="Show3StarOverigen()" id="OptionButton"> 3 Ster</button>
+        <button onclick="Show2StarOverigen()" id="OptionButton"> 2 Ster</button>
+        <button onclick="Show1StarOverigen()" id="OptionButton"> 1 Ster</button>
+      </div>
+
+    <div id="CardContainer">
+        <div id="Star4">
+        <div id="CardContainerSmall">
+            <h3>Stellar Crown Booster Box</h3>
+            <img src="https://www.pokemonbay.nl/wp-content/uploads/2024/10/Stellar-crown-Booster-box-800x800-1-600x600.png">
+            <p>36 Pokemon Pakjes</p>
+            <a href="https://www.bescards.nl/pokemon-stellar-crown-booster-box/?gad_source=1&gclid=Cj0KCQiA1p28BhCBARIsADP9HrO_8TD_mYOtyHXNN58bKAUeRaCn1H5gpTEBF8MEKKFmmXpJuN7pENYaAhaLEALw_wcB"><button><p id="WebsiteText">Website</p></button></a>
+            <p>Gemiddeld = 4 Ster</p>
+            <p>Ivar: &#11088;&#11088;&#11088;</p>
+            <p>Milan: &#11088;&#11088;&#11088;&#11088;&#11088;</p>
+        </div>
+    </div>
+    </div>
+
+    <div id="CardContainer2" hidden>
+        <div id="Star4Gamen">
+        <div id="CardContainerSmall">
+            <h3>Een Grote Muismat</h3>
+            <img src="https://www.idgaming.co.uk/cdn/shop/files/silentstalker_720x.png?v=1729270555">
+            <p>Deze kiest Milan</p>
+            <a href="https://www.idgaming.co.uk/products/silent-stalker?variant=44270391886043"><button><p id="WebsiteText">Website</p></button></a>
+            <p>Gemiddeld = 4 Ster</p>
+            <p>Milan: &#11088;&#11088;&#11088;&#11088;</p>
+        </div>
+    </div>
+    <div id="Star4-1Gamen">
+        <div id="CardContainerSmall">
+            <h3>Een Grote Muismat</h3>
+            <img src="">
+            <p>Deze kiest Ivar</p>
+            <a href=""><button><p id="WebsiteText">Website</p></button></a>
+            <p>Gemiddeld = 4 Ster</p>
+            <p>Ivar: &#11088;&#11088;&#11088;&#11088;</p>
+        </div>
+    </div>
+    </div>
+
+    <div id="CardContainer3" hidden>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
