@@ -119,4 +119,14 @@ button:hover {
         gap: 25px;
         flex-wrap: wrap;
     }
+
+    #OptionContainer2 {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    #OptionContainer3 {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
 }
