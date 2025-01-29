@@ -29,9 +29,10 @@ function ShowAllPokemon() {
     // document.getElementById("Star5").style.display = "block";
     document.getElementById("Star4").style.display = "block";
     document.getElementById("Star4-1").style.display = "block";
-    document.getElementById("Star3").style.display = "block";
+    document.getElementById("Star2").style.display = "block";
     document.getElementById("Star3-1").style.display = "block";
     document.getElementById("Star3-2").style.display = "block";
+    document.getElementById("Star3-3").style.display = "block";
     // document.getElementById("Star2").style.display = "block";
     // document.getElementById("Star1").style.display = "block";
 }
@@ -40,9 +41,10 @@ function Show5StarPokemon() {
     // document.getElementById("Star5").style.display = "block";
     document.getElementById("Star4").style.display = "none";
     document.getElementById("Star4-1").style.display = "none";
-    document.getElementById("Star3").style.display = "none";
+    document.getElementById("Star2").style.display = "none";
     document.getElementById("Star3-1").style.display = "none";
     document.getElementById("Star3-2").style.display = "none";
+    document.getElementById("Star3-3").style.display = "none";
     // document.getElementById("Star2").style.display = "none";
     // document.getElementById("Star1").style.display = "none";
 }
@@ -51,9 +53,10 @@ function Show4StarPokemon() {
     // document.getElementById("Star5").style.display = "none";
     document.getElementById("Star4").style.display = "block";
     document.getElementById("Star4-1").style.display = "block";
-    document.getElementById("Star3").style.display = "none";
+    document.getElementById("Star2").style.display = "none";
     document.getElementById("Star3-1").style.display = "none";
     document.getElementById("Star3-2").style.display = "none";
+    document.getElementById("Star3-3").style.display = "none";
     // document.getElementById("Star2").style.display = "none";
     // document.getElementById("Star1").style.display = "none";
 }
@@ -62,9 +65,10 @@ function Show3StarPokemon() {
     // document.getElementById("Star5").style.display = "none";
     document.getElementById("Star4").style.display = "none";
     document.getElementById("Star4-1").style.display = "none";
-    document.getElementById("Star3").style.display = "block";
+    document.getElementById("Star2").style.display = "none";
     document.getElementById("Star3-1").style.display = "block";
     document.getElementById("Star3-2").style.display = "block";
+    document.getElementById("Star3-3").style.display = "block";
     // document.getElementById("Star2").style.display = "none";
     // document.getElementById("Star1").style.display = "none";
 }
@@ -73,9 +77,10 @@ function Show2StarPokemon() {
     // document.getElementById("Star5").style.display = "none";
     document.getElementById("Star4").style.display = "none";
     document.getElementById("Star4-1").style.display = "none";
-    document.getElementById("Star3").style.display = "none";
+    document.getElementById("Star2").style.display = "block";
     document.getElementById("Star3-1").style.display = "none";
     document.getElementById("Star3-2").style.display = "none";
+    document.getElementById("Star3-3").style.display = "none";
     // document.getElementById("Star2").style.display = "block";
     // document.getElementById("Star1").style.display = "none";
 }
@@ -84,9 +89,10 @@ function Show1StarPokemon() {
     // document.getElementById("Star5").style.display = "none";
     document.getElementById("Star4").style.display = "none";
     document.getElementById("Star4-1").style.display = "none";
-    document.getElementById("Star3").style.display = "none";
+    document.getElementById("Star2").style.display = "none";
     document.getElementById("Star3-1").style.display = "none";
     document.getElementById("Star3-2").style.display = "none";
+    document.getElementById("Star3-3").style.display = "none";
     // document.getElementById("Star2").style.display = "none";
     // document.getElementById("Star1").style.display = "block";
 }
