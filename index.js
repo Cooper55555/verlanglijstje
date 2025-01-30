@@ -98,55 +98,61 @@ function Show1StarPokemon() {
 }
 
 function ShowAllGamen() {
-    // document.getElementById("Star5Gamen").style.display = "block";
+    document.getElementById("Star5Gamen").style.display = "block";
+    document.getElementById("Star5-1Gamen").style.display = "block";
     document.getElementById("Star4Gamen").style.display = "block";
     document.getElementById("Star4-1Gamen").style.display = "block";
-    // document.getElementById("Star3Gamen").style.display = "block";
+    document.getElementById("Star3Gamen").style.display = "block";
     // document.getElementById("Star2Gamen").style.display = "block";
     // document.getElementById("Star1Gamen").style.display = "block";
 }
 
 function Show5StarGamen() {
-    // document.getElementById("Star5Gamen").style.display = "block";
+    document.getElementById("Star5Gamen").style.display = "block";
+    document.getElementById("Star5-1Gamen").style.display = "block";
     document.getElementById("Star4Gamen").style.display = "none";
     document.getElementById("Star4-1Gamen").style.display = "none";
-    // document.getElementById("Star3Gamen").style.display = "none";
+    document.getElementById("Star3Gamen").style.display = "none";
     // document.getElementById("Star2Gamen").style.display = "none";
     // document.getElementById("Star1Gamen").style.display = "none";
 }
 
 function Show4StarGamen() {
-    // document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5-1Gamen").style.display = "none";
     document.getElementById("Star4Gamen").style.display = "block";
     document.getElementById("Star4-1Gamen").style.display = "block";
-    // document.getElementById("Star3Gamen").style.display = "none";
+    document.getElementById("Star3Gamen").style.display = "none";
     // document.getElementById("Star2Gamen").style.display = "none";
     // document.getElementById("Star1Gamen").style.display = "none";
 }
 
 function Show3StarGamen() {
-    // document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5-1Gamen").style.display = "none";
     document.getElementById("Star4Gamen").style.display = "none";
     document.getElementById("Star4-1Gamen").style.display = "none";
-    // document.getElementById("Star3Gamen").style.display = "block";
+    document.getElementById("Star3Gamen").style.display = "block";
     // document.getElementById("Star2Gamen").style.display = "none";
     // document.getElementById("Star1Gamen").style.display = "none";
 }
 
 function Show2StarGamen() {
-    // document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5-1Gamen").style.display = "none";
     document.getElementById("Star4Gamen").style.display = "none";
     document.getElementById("Star4-1Gamen").style.display = "none";
-    // document.getElementById("Star3Gamen").style.display = "none";
+    document.getElementById("Star3Gamen").style.display = "none";
     // document.getElementById("Star2Gamen").style.display = "block";
     // document.getElementById("Star1Gamen").style.display = "none";
 }
 
 function Show1StarGamen() {
-    // document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5Gamen").style.display = "none";
+    document.getElementById("Star5-1Gamen").style.display = "none";
     document.getElementById("Star4Gamen").style.display = "none";
     document.getElementById("Star4-1Gamen").style.display = "none";
-    // document.getElementById("Star3Gamen").style.display = "none";
+    document.getElementById("Star3Gamen").style.display = "none";
     // document.getElementById("Star2Gamen").style.display = "none";
     // document.getElementById("Star1Gamen").style.display = "block";
 }
